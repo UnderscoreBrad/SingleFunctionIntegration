@@ -5,16 +5,10 @@ Designed to test serverless functions on AWS Lambda and GCP Cloud Functions
 
 Includes two functions in Integrate.java:
 
-integrate: 
-args: a - lower bound
-      b - upper bound
-      pointCount - number of points for use in approximation
+integrate (double a, double b, long pointCount)
 return: time taken to approximate the integral for the point count
 
-integrate_time:
-args: a - lower bound
-      b - upper bound
-      duration - time interval to continue generating points (millis)
+integrate_time (double a, double b, long duration) 
 return: number of points generated and used for approximation
 
 # Usages:
