@@ -20,3 +20,12 @@ java Integrate --timed a b duration_millis
 
 java Integrate --both a b point_count duration_millis
 > runs both test types sequentially. tests point-count based integration first, then time-based.
+
+
+# Reference Scores (--both -1 1 1000000000 8000):
+
+AMD Ryzen 7 7700X (4.5Ghz): 
+> 7724 ms, 827634106 points
+
+Intel Core i7-8550U (2.0Ghz):
+>
